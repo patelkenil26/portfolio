@@ -1,0 +1,246 @@
+
+:root{
+    --solid-heading: #42446E;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding-top: 100px;
+    margin: 130px 170px;
+}
+.education-title{
+    position: relative;
+}
+
+.education-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.education-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+
+.education-section{
+    /* display: flex; */
+    gap: 80px;
+
+}
+@keyframes shadowfade {
+    0% {
+        box-shadow: 2px 2px 0 var(--solid-heading);
+    }
+
+    100% {
+        box-shadow: 2px 2px 100px var(--solid-heading);
+    }
+}
+/* .about-left img{
+    border-radius: 100%;
+    margin-right: 50px;
+    padding-top: 0px;
+    height: 400px;
+    width: 400px;
+    animation: shadowfade 1.5s alternate-reverse infinite;
+} */
+
+.education-right{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 100%;
+}
+/* .about-para{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 500;
+} */
+/* .about-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}    */
+
+
+.education-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.edu-one{
+    /* width: 100%; */
+    margin-top: -10px;
+    display: flex;
+    gap:600px;
+    margin-bottom: 10px;
+}
+.edu-one p{
+    background: linear-gradient(264deg,#DF8908 -5.09%,#B415FF 106.28%);
+    border-radius: 25px;
+    padding: 6px 12px;
+    /* opacity: 0.9;     */
+    font-weight: 600;
+}
+.edu-two h6{
+    opacity: 0.5;
+}
+.edu-two{
+    display: flex;
+    gap: 930px;
+    margin-bottom: 20px;
+
+}
+.edu-three{
+    margin-top: 20px;
+    display: flex;
+    gap: 650px;
+    margin-bottom: 10px;
+}
+
+.edu-three p{
+    background: linear-gradient(264deg,#DF8908 -5.09%,#B415FF 106.28%);
+    border-radius: 25px;
+    padding: 8px 12px;
+    /* opacity: 0.9;     */
+    font-weight: 600;
+}
+.edu-four{
+    display: flex;
+    gap: 890px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.edu-four h6{
+    opacity: 0.5;
+}
+.edu-five p{
+    background: linear-gradient(264deg,#DF8908 -5.09%,#B415FF 106.28%);
+    border-radius: 25px;
+    padding: 8px 12px;
+    /* opacity: 0.9;     */
+    font-weight: 600;
+}
+.edu-five{
+    margin-top: 20px;
+    display: flex;
+    gap: 695px;
+    margin-bottom: 10px;
+}
+.edu-six{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 845px;
+    margin-bottom: 20px;
+}
+.edu-six h6{
+    opacity: 0.5;
+}
+.about-skill p{
+    min-width: 150px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.about-skill hr{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg,#DF8908 -5.09%,#B415FF 106.28%);
+}
+
+.about-skill:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+@media(max-width:768px){
+    .education{
+        gap: 80px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+    
+    .education-title h1{
+        font-size: 70px;
+        padding: 0;
+
+    }
+    .education-title img{
+        width: 130px;
+        right: -30px;
+    }
+    .education-section{
+        flex-direction: column;
+    }
+    .education-left img{
+        margin-left : 190px;
+    }
+    .education-right{
+        margin-left: 140px;
+        width: 90%;
+    }
+    .education-para{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .education-skill{
+        gap: 20px;
+        align-items: center;
+    }
+    .education-skill p{
+        font-size: 20px;
+    }
+    .education-skill hr{
+        height: 6px;
+    }
+    .edu-one{
+        gap: 300px;
+        justify-content: space-between;
+
+    }
+    .edu-two{
+        gap: 450px;
+        justify-content: space-between;
+    }
+    .edu-three{
+        gap: 325px;
+    }
+    .edu-four{
+        gap: 445px;
+        justify-content: space-between;
+
+    }
+    .edu-five{
+        gap: 347px;
+    }
+    .edu-six{
+        gap: 422px;
+    }
+    .edu-one p{
+        background: linear-gradient(264deg,#DF8908 -5.09%,#B415FF 106.28%);
+        border-radius: 25px;
+        padding: 16px 20px;
+        /* opacity: 0.9;     */
+        font-weight: 600;
+    }
+
+}
+
+ 

@@ -1,0 +1,164 @@
+.navbar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+
+}
+.navbar-title {
+  position: relative;
+
+}
+.navbar-title h1 {
+  padding: 0px 0px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.navbar-title img {
+  height: 35px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -2;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  gap: 40px;
+  font-size: 19px;
+  cursor: pointer;
+  
+}
+
+.nav-connect {
+  display: flex;
+  padding: 20px 40px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-github img {
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+  transition:0.5s;
+  background: black;
+}
+.nav-linkden img {
+  width: 42px;
+  height: 43px;
+  border-radius: 60%;
+  transition:0.5s;
+  background: black;
+
+}
+
+
+.nav-github:hover {
+  transform: scale(1.1);
+    transition:0.5s;
+
+}
+.nav-linkden:hover {
+  transform: scale(1.1);
+  transition:0.5s;
+
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.nav-menu li img {
+  display: flex;
+  margin: auto;
+}
+
+.toggle-icon-close {
+  display: none;
+}
+
+.nav-mob-open {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 2rem;
+   
+  }
+  .nav-connect {
+    display: none;
+  }
+  .toggle-icon-open {
+    display: block;
+    /* position: fixed;  */
+    right: 30px;
+  }
+  .toggle-icon-close {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 290px;
+    width: 30px;
+  }
+  .nav-menu {
+    position: fixed;
+    flex-direction: column;
+    align-items: start;
+    top: 0;
+    gap: 30px;
+    width: 350px;
+    height: 100%;
+    z-index: 2;
+    transition: right 0.5s;
+    right: -350px;
+    padding-bottom: 40px;
+    background-color: #161513;
+  }
+  .nav-menu li {
+    font-size: 2rem;
+    padding-left: 100px;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .navbar-title h1 {
+
+    font-size: 4rem;
+  }
+  .nav-github img {
+    width: 20px;
+    height: 20px;
+    border-radius: 60%;
+    transition:0.5s;
+    background: black;
+    border: 1px solid white;
+  }
+  .nav-linkden img {
+    width: 21px;
+    height: 23px;
+    border-radius: 60%;
+    transition:0.5s;
+    background: black;
+  
+  }
+}
+
+

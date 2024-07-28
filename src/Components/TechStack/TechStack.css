@@ -1,0 +1,371 @@
+/* .techstack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 80px 170px;
+  padding-top: 80px;
+}
+.techstack-title {
+  position: relative;
+}
+.techstack-title h1 {
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.techstack-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.techstack-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 190px;
+  gap: 60px;
+}
+
+.techstack-para {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.564);
+}
+
+.techstack-icons {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  margin: 20px 0px;
+  padding: 20px 30px;
+}
+.techstack-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.techstack-icon .text {
+  visibility: hidden;
+  background-color: black;
+
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  padding: 6px 25px;
+  font-size: 10px;
+  top: 100%;
+  left: 70%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.techstack-icon:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+.techstack-icon:hover .text {
+  visibility: visible;
+  transition: 0.3s;
+  opacity: 1;
+
+}
+
+.html img {
+  height: 70px;
+  width: 70px;
+  padding: 0px 10px;
+}
+.css img {
+  height: 70px;
+  width: 70px;
+  padding: 0px 10px;
+}
+.js img {
+  height: 70px;
+  width: 70px;
+  padding: 0px 10px;
+}
+.bootstrap img {
+  height: 70px;
+  width: 70px;
+  padding: 0px 10px;
+}
+.react img {
+  height: 70px;
+  width: 70px;
+  padding: 0px 10px;
+}
+.nodejs img {
+  height: 70px;
+  width: 70px;
+  padding: 0px 10px;
+}
+.express img {
+  height: 50px;
+  width: 50px;
+  padding: 0px 10px;
+}
+.mongodb img {
+  height: 50px;
+  width: 50px;
+  padding: 0px 10px;
+}
+.github img {
+  height: 50px;
+  width: 50px;
+  padding: 0px 10px;
+}
+.git img {
+  height: 50px;
+  width: 50px;
+  padding: 0px 10px;
+}
+.vs img {
+  height: 50px;
+  width: 50px;
+  padding: 0px 10px;
+}
+
+@media(max-width:768px){
+    .techstack{
+      align-items: start;
+      gap: 70px;
+      margin: 20px 70px;
+    }
+    .techstack-title {
+      position: relative;
+    }
+    .techstack-title h1 {
+      padding: 0px 10px;
+      font-size: 70px;
+      font-weight: 600;
+    }
+    
+    .techstack-title img {
+      position: absolute;
+      bottom: 4px;
+      right: 0px;
+      z-index: -1;
+      width: 130px;
+    }
+    .techstack-para{
+      width: 390px;
+     
+      
+        font-size: 18px;
+        line-height: 32px;
+    
+    }
+    .techstack-icons {
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 25px;
+      margin: 13px 0px;
+      padding: 15px 5px;
+    }
+    .techstack-icon {
+      position: relative;
+      display: inline-block;
+    }
+} */
+
+
+
+
+
+.techstack {
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 0px 170px;
+  padding-top: 124px;
+}
+
+.techstack-title {
+  position: relative;
+}
+
+.techstack-title h1 {
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.techstack-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.techstack-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 190px;
+  gap: 60px;
+}
+
+.techstack-para {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 500;
+
+  color: rgba(255, 255, 255, 0.564);
+}
+
+.techstack-icons {
+  /* border: 1px solid white; */
+  width: 68vw;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+  margin: 20px 0px;
+  padding: 20px 30px;
+}
+
+.techstack-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.techstack-icon .text {
+  visibility: hidden;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  padding: 6px 25px;
+  font-size: 10px;
+  top: 100%;
+  left: 70%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.techstack-icon img{
+  width: 64px;
+  height: 64px;
+}
+.techstack-icon:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+.techstack-icon:hover .text {
+  visibility: visible;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.html img,
+.css img,
+.js img,
+.bootstrap img,
+.react img,
+.nodejs img {
+  height: 70px;
+  width: 70px;
+  padding: 0px 10px;
+}
+
+.express img,
+.mongodb img,
+.github img,
+.git img,
+.vs img {
+  height: 50px;
+  width: 50px;
+  padding: 0px 10px;
+}
+
+@media(max-width: 768px) {
+  .techstack {
+    
+    margin:0px ;
+    padding: 24px;
+    gap: 24px;
+   
+  }
+
+  .techstack-title h1{
+    margin-top: 100px;
+    text-align: center;
+    padding: 0px;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+.techstack-title img{
+    width: 130px;
+    margin-right: -20px;
+}
+
+  .techstack-para {
+    text-align: center;
+    width: 100%; /* Make the paragraph take full width */
+    font-size: 16px; /* Adjust font size for better readability */
+    line-height: 28px; /* Adjust line height for better spacing */
+  }
+
+  .techstack-icons {
+    gap: 30px; /* Adjust gap for better spacing */
+    margin: 10px 20px;  /*Adjust margin for better spacing*/
+    padding: 10px 5px; /* Adjust padding for better spacing */
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .techstack-icon img {
+    width: 68px;
+    height: 68px; /* Adjust icon size for better fit */
+
+  }
+}
+
+/* Additional media query for max-width 550px */
+@media(max-width: 550px) {
+  /* .techstack {
+    margin: 20px 20px;
+  } */
+
+  /* .techstack-title h1 {
+    font-size: 50px; 
+  }*/
+
+  .techstack-icons {
+    gap: 20px; 
+    padding: 10px 5px;
+  } 
+
+  .techstack-icon img {
+    height: 80px; 
+    width: 80px;
+  }
+}
