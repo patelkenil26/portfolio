@@ -10,8 +10,8 @@ const projects = [
     description:
       " Spotify WebApp is a React application that emulates core Spotify features such as browsing music, searching for songs and artists, viewing playlists, and liking/saving songs. It uses Vite for development and Tailwind CSS for styling.",
     techstack: "ReactJS, ",
-    livelink: "spotify-web-app-hazel.vercel.app",
-    githublink: "https://github.com/patelkenil26/spotify-webApp",
+    livelink: "https://spotify-full-stack-mu.vercel.app/",
+    githublink: "https://github.com/patelkenil26/spotify-full-stack",
   },
   {
     projectIcon: shopapp,
