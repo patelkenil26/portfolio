@@ -49,7 +49,7 @@ const Eduction = () => {
         <div className="edu-info">
           <div className="edu-one">
           <h3>B.Tech (Computer Science and Engineering)</h3>
-          <p>CGPA: 8.0</p>
+          <p>CGPA: 8.14</p>
           </div>
           <div className="edu-two">
             <h6>
