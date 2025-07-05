@@ -47,10 +47,10 @@ const Contact = () => {
               <img src={mail_icon} alt="" /> <p>patelkenil2444@gmail.com</p>
             </div>
             <div className="contact-detail">
-              <img src={call_icon} alt="" /> <p>+91-6359915998</p>
+              <img src={call_icon} alt="" /> <p>+91-8238257847</p>
             </div>
             <div className="contact-detail">
-              <img src={location_icon} alt="" /> <p>Vadodara</p>
+              <img src={location_icon} alt="" /> <p>Ahmedabad</p>
             </div>
           </div>
         </div>
